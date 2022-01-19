@@ -14,6 +14,8 @@ app.use('/', (req, res, next) => {
   )
 })
 
+// TODO: should redirect static resource request to vite server
+
 app.listen(PORT, () => {
   process.stdout.write('Custom server is running at http://localhost:' + PORT)
 })
